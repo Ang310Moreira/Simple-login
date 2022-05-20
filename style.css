@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box
+}
+
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    /*background-image: url(/fundo/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;*/background-color: #380066;
+   
+}
+
+
+/*.Container-pai{
+    width: 100vw;
+    height: 100vh;
+    
+    border: 2px solid;
+    display: flex;
+    border-color: blue;
+    align-items: center;
+    justify-content: center;
+
+}*/
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 363px;
+    height: 390px;
+    background-color: #f8eeff;
+    padding: 35px 32px 35px 32px;
+    margin: 0 50px 0 50px;
+    border-radius: 25.53px;
+    filter: drop-shadow(0px 3px 11px rgba(0, 0, 0, 0.25))
+    /*margin-left:400px <----- utilize ela para alinhar, mas sem o posicionamento do pai*/   
+}
+
+
+.login h1 {
+    margin-bottom: 6.69px;
+    font-size: 28.72px
+    
+}
+
+.login .descrição{
+    margin-bottom: 24.64px;
+    width: 245px;
+    text-align: center;
+    
+}
+
+.login .acesse{
+    margin-top: 6.96px;
+    
+    width: 245px;
+    text-align: center; 
+}
+
+.login .acesse > span{
+    text-decoration: underline;
+}
+   
+.fields{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.fields .textfield{
+    height: 43.88px;
+    margin: 11px;
+}
+.textfield > input{
+    width: 100%;
+    height: 100%;
+    padding: 0 15px;
+    border: 0.8px solid;
+    border-radius: 7.98px;
+    border-color: rgba(0, 0, 0, 0.1)
+    
+}
+
+.btn-login{
+
+    margin-top: 16px;
+    padding: 12px 81px;
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 700;
+    border: 0.8px solid;
+    border-radius: 11.97px;
+    background-color: #380066;
+    border:none;
+}
+
+
+
+
+
+/* Utilitários*/
+
+.fonte{
+    font-family: 'Karla', sans-serif;
+
+}
+
+.fonte-bold{
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+
+}
+
+.fonte-regular{
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+}
+   
